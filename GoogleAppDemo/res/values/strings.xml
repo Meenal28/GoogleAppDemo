@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleAppDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_btn_find">Find</string>
+    <string name="google_search_key">AIzaSyDtO3O8OmgIcsDkwmLufUMx_9DRMDuhLis</string>
+    <string name="google_maps_key">AIzaSyDtO3O8OmgIcsDkwmLufUMx_9DRMDuhLis</string>
+    <string name="title_activity_maps">Activity Maps</string>
+    <string name="dialog_message">Loading Data..</string>
+    <string name="text_open_now">Open Now</string>
+    <string name="text_downloading">Downloading</string>
+    <string name="warning_internet">Please check your internet settings.</string>
+    <string name="title_alert">Warning</string>
+    <string name="file_success_download">File Downloaded Successfully, Saved in </string>
+    <string name="text_search_places">Enter Search text..</string>
+
+</resources>

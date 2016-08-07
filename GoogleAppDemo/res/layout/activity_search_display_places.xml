@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <AutoCompleteTextView
+            android:id="@+id/autoTextView_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btnFind"
+            android:hint="@string/text_search_places"
+            android:imeOptions="actionSearch"
+            android:inputType="textAutoComplete|textAutoCorrect"
+            android:textColor="@android:color/black" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/btnFind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:drawableTop="@drawable/ic_action_search"
+            android:text="@string/label_btn_find" />
+    </RelativeLayout>
+
+    <!-- List View -->
+
+    <ListView
+        android:id="@+id/list_view_place"
+        android:cacheColorHint="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:listSelector="@color/blue"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
